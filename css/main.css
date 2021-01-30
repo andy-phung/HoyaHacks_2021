@@ -1,0 +1,129 @@
+/* COLORS */
+/* GLOBAL VARIABLES */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+  overflow: visible;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cardo", Garamond, serif;
+}
+
+i {
+  padding: 0 5px;
+  vertical-align: baseline;
+}
+
+/* BUTTONS AND LINKS */
+a,
+a:visited {
+  color: #0f0e17;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  font-weight: bold;
+  color: #256ec5;
+}
+
+/* NAVIGATION */
+.navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: ease 0.4s;
+  transition: ease 0.4s;
+}
+
+.navbar--scrolled {
+  height: 40px;
+}
+
+li.nav-item {
+  list-style: none;
+}
+
+a.nav-link {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+/* INTRO */
+.hs {
+  min-height: 100vh;
+}
+
+.hs section {
+  height: 100vh;
+  padding: 10em;
+}
+
+.hs section:nth-child(odd) {
+  background: #fffffe;
+}
+
+.hs section:nth-child(even) {
+  background: #256ec5;
+  color: #fffffe;
+}
+
+/* RESOURCES */
+#resources {
+  padding: 2em;
+  min-height: 100vh;
+}
+
+#resources .filter {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1030 !important;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#resources content {
+  margin-left: 250px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.accordion-body {
+  padding: 0 !important;
+}
+
+.accordion .list-group-item {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  bottom: 0;
+  width: 100vw;
+}
+
+footer ul {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */

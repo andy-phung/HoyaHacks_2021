@@ -1,0 +1,116 @@
+/* COLORS */
+$white: #fffffe;
+$black: #0f0e17;
+$accent: #256ec5;
+
+/* GLOBAL VARIABLES */
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", Helvetica, sans-serif;
+    overflow: visible;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Cardo", Garamond, serif;
+}
+i {
+    padding: 0 5px;
+    vertical-align: baseline;
+}
+
+/* BUTTONS AND LINKS */
+a,
+a:visited {
+    color: $black;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    font-weight: bold;
+    color: $accent;
+}
+
+/* NAVIGATION */
+.navbar {
+    height: 80px;
+    display: flex;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: ease 0.4s;
+    &--scrolled {
+      height: 40px;
+    }
+}
+li.nav-item {
+    list-style: none;
+}
+
+a.nav-link {
+    justify-content: end;
+}
+
+/* INTRO */
+.hs {
+    min-height: 100vh;
+
+    section {
+        height: 100vh;
+        padding: 10em;
+        &:nth-child(odd) {
+            background: $white;
+        }
+        &:nth-child(even) {
+            background: $accent;
+            color: $white;
+        }
+    }
+}
+
+/* RESOURCES */
+
+#resources {
+    padding: 2em;
+    min-height: 100vh;
+  .filter {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1030 !important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  content {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+
+  }
+}
+.accordion {
+    &-body {
+        padding:0 !important;
+    }
+    .list-group-item{
+        width:100%;
+    }
+}
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    width: 100vw;
+    ul {
+        list-style: none;
+    }
+}
