@@ -1,0 +1,47 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+header {
+    margin: 1.5rem;
+    background-color: #4ac734;
+    color: #e0e0e8;
+    text-align: initial;
+}
+
+header h2 {
+    margin-left: 1.5rem;
+    padding: 0.75rem;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Helvetica;
+}
+
+p {
+    font-family: arial;
+}
+
+h3 {
+    font-family: arial;
+    text-align: center;
+}
+
+/* basic positioning */
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .parks { background-color: #04a057; }
+.legend .outdoor { background-color: #4287f5; }
+.legend .street { background-color: #eb3462; }
+.legend .schools { background-color: #34ebc6; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+  width: 100%;
+  height: 400px;
+}
