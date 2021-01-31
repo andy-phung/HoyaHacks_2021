@@ -4,6 +4,7 @@
 Best Data Visualization, Best Domain Registered with Domain.com
 
 ## Inspiration ##
+With the current situation in Hong Kong (the Chinese government eliminating autonomy), many citizens of Hong Kong have decided to emigrate to other countries, such as the United Kingdom. We took inspiration from this to center our initial idea around visualizing migration patterns. From this, we decided to zero in on forced migration, as forced migration is a much more prevalent international issue.
 
 ## What it does ##
 With the increasing amount of violence and conflict in certain countries, the number of refugees worldwide has doubled over the past decade. RefuJourney is a web app aiming to provide an introduction to forced migration, visualize forced migration over the past 30 years with an interactive and informative interface, and provide a directory of national/international organizations seeking to aid forced migrants and combat the various international issues brought on by forced migration. Ultimately, we hope to spread awareness and inform as many as possible on forced migration, and help redirect resources to the many organizations providing aid to over 80 million people undergoing forced migration. 
