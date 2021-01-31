@@ -25,4 +25,6 @@ Though we've mostly accomplished our goal of spreading awareness on refugees thr
 - Exploring the impact of COVID-19 on international migration/forced migration patterns
 - Improving landing page graphics
 
+## Video ##
+
 ## Built with ##
